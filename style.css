@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+li {
+    list-style-type: none;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#pertama{
+    background: url(./asset/image.png);
+    width: 100%;
+    height: 804px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 70%;
+    max-width: 1200px;
+    z-index: 2;
+}
+
+nav {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+}
+
+nav .gambarnav {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav .gambarnav img {
+    width: 220px;
+    height: 25px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 20px;
+    display: inline;
+}
+
+nav ul li a:hover {
+    color: #A4D84F;
+}
+
+nav li:nth-child(4) {
+    margin-right: 0px;
+}
+
+
+
+.atas {
+    left: 0;
+    top: 0;
+    position: absolute;
+    background-color: #060826;
+    opacity: 0.8;
+    width: 100%;
+    height: 804px;
+    z-index: 1;
+}
+
+.konten {
+    display: flex;
+    margin: 160px auto;
+}
+
+.konten .kiri {
+    width: 60%;
+}
+.konten .kiri .head ul{
+    display: flex;
+}
+
+.konten .kiri .head a{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.konten .kiri .head ul li{
+    margin: auto 0;
+}
+
+hr {
+    margin-right: 10px;
+    justify-content: center;
+    width: 30px;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.konten .kiri .isi ul>li {
+    margin: 40px 0px 40px 0px;
+}
+
+.konten .kiri .isi ul>li a{
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.konten .kiri .isi ul>li a:hover{
+    color: #A4D84F;
+    font-weight: 300;
+}
+
+.konten .kanan {
+    margin: auto;
+    display: flex;
+    color: white;
+    width: 40%;
+    z-index: 20;
+    justify-content: center;
+}
+
+.konten .isikanan h1{
+    justify-content: center;
+    color: #A4D84F;
+    margin: 20px 0;
+}
+
+.konten .kanan .isikanan h1{
+    font-size: 46px;
+}
+
+.konten .kanan .isikanan p{
+    text-align: justify;
+    line-height: 30px;
+    font-weight: lighter;
+}
+
+.atasgambar {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background:url(./asset/konten.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    width: 100%;
+    height: 804px;
+}
+
+#kedua {
+    position: static;
+    z-index: 0;
+    width: 100%;
+    height: 632px;
+}
+#kedua .judul {
+    margin-bottom: 40px;
+}
+
+#kedua .judul h3 {
+    font-size: 36px;
+}
+
+#kedua .judul h1 {
+    font-size: 36px;
+    color: #A4D84F;
+}
+
+#kedua .dua {
+    padding: 60px 0;
+}
+
+#kedua .isibawah {
+    display: flex;
+}
+
+#kedua .isibawah .gambarkiri {
+    width: 60%;
+}
+
+#kedua .isibawah .gambarkiri img{
+    width: 491.44px;
+}
+
+#kedua .kontenkanan{
+    width: 40%;
+}
+
+#kedua .kontenkanan h1 {
+    font-size: 36px;
+}
+
+#kedua .kontenkanan p {
+    font-size: 18px;
+    font-weight: lighter;
+    color: #9a9a9a;
+    margin: 20px 0;
+}
+
+#kedua .kontenkanan .button {
+    display: flex;
+}
+
+#kedua .kontenkanan .button .tombolsatu {
+    height: 45px;
+    padding: 0 20px;
+    border: 2px solid black;
+    background: transparent;
+    border-radius: 100px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#kedua .kontenkanan .button .tombolsatu:hover {
+    background-color: black;
+    color: white;
+}
+
+#kedua .kontenkanan .button .tomboldua {
+    height: 45px;
+    padding: 0 20px;
+    border: 2px solid black;
+    background: transparent;
+    border-radius: 100px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#kedua .kontenkanan .button .tomboldua:hover {
+    background-color: black;
+    color: white;
+}
+
+#kedua .button button:nth-child(1){
+    margin-right: 20px;
+}
+
+#kedua .kontenkanan .tomboltiga {
+    height: 40px;
+    background-color: #A9DA57;
+    border: 1px solid transparent;
+    padding: 0 30px;
+    color: white;
+    margin: 30px 0;
+    font-size: 15px;
+}
+
+#ketiga {
+    width: 100%;
+    height: 610px;
+    background-color: #1F211D;
+}
+
+#ketiga .tiga {
+    display: flex;
+    padding-top: 100px;
+}
+
+#ketiga .bagkiri {
+    width: 45%;
+}
+
+#ketiga .bagkiri h1{
+    color:  #A9DA57;
+    font-size: 35px;
+}
+
+#ketiga .bagkiri form {
+    width: 95%;
+}
+
+#ketiga .bagkiri .tombolshare {
+    background-color:  #A9DA57;
+    height: 45px;
+    width: 162px;
+    border: none;
+    color: #152647;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#ketiga .bagkiri .tombolshare:hover {
+    background-color: rgb(72, 158, 2);
+}
+
+#ketiga .bagkanan {
+    margin: 0 auto;
+    display: block;
+    width: 55%;
+}
+
+#ketiga .bagkanan .copy {
+    margin-top: 130px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+}
+
+#ketiga .bagkanan .footgambar {
+    display: flex;
+    margin-bottom: 80px;
+    justify-content: flex-end;
+}
+
+#ketiga .bagkanan .footgambar img{
+    width: 60%;
+}
+
+#ketiga .bagkanan .footsatu {
+    margin: 50px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#ketiga .bagkanan .footsatu img{
+    margin-left: 20px;
+    width: 25px;
+    height: 25px;
+}
+
+#ketiga .bagkanan .footsatu p {
+    color: white;
+    text-align: right;
+    /* line-height: 40px; */
+    font-size: 18px;
+    font-weight: 200;
+}
+
+#ketiga .bagkanan .footdua {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#ketiga .bagkanan .footdua img{
+    margin-left: 20px;
+    width: 25px;
+    height: 25px;
+}
+
+#ketiga .bagkanan .footdua p {
+    font-size: 18px;
+    color: white;
+    font-weight: 200;
+}
+
+
+
+#ketiga .row {
+    margin: 20px 0;
+}
+
+#ketiga .row input, textarea{
+    width: 100%;
+    border-radius: 3px;
+    padding: 1em;
+    font-style: italic;
+    border: 1px solid black;
+}
+
+/* Mobile */
+@media screen and (max-width: 787px) {
+    
+    .container {
+        width: 80%;
+    }
+
+    #pertama .gambarnav{
+        display: none;
+    }
+
+    #pertama .konten {
+        display: block;
+        margin: 60px auto;
+    }
+
+    #pertama .konten .kiri {
+        width: 100%;
+        margin: 0 auto;
+    }
+    #pertama .konten .kanan {
+        width: 100%;
+        text-align: justify;
+
+    }
+
+    #kedua {
+        height: 100%;
+    }
+
+    #kedua .judul {
+        text-align: center;
+    }
+
+    #kedua .isibawah {
+        display: block;
+    }
+
+    #kedua .gambarkiri {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    #kedua .kontenkanan {
+        width: 100%;
+        text-align: center;
+    }
+
+    #kedua .kontenkanan .button {
+        display: flex;
+        justify-content: center;
+    }
+
+    #ketiga {
+        height: 900px;
+    }
+    #ketiga .tiga {
+        display: block;
+    }
+
+  
+    #ketiga .bagkanan .copy {
+        margin: 50px 0;
+    }
+    #ketiga .bagkiri{
+        width: 100%;
+    }
+
+    #ketiga .bagkiri h1{
+        font-size: 35px;
+    }
+
+    #ketiga .bagkanan {
+        margin-top: 60px;
+        width: 100%;
+    }
+
+    #ketiga .bagkanan .footgambar {
+        margin-bottom: 0px;
+    }
+
+    #ketiga .bagkanan .footsatu {
+        margin: 30px auto;
+    }
+
+}
